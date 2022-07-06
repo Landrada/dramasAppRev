@@ -5,13 +5,21 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Landrada",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.3.6"
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0",
+    "swaggiffy": "^1.0.5"
   }
 }
